@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Emotions GIPHY</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body style = "background-color: powderblue;">
+    <div class = "container">
+        <div class ="jumbotron text-center" style="background-color: black">
+            <h3 style="color: white">Welcome to my page of <b>EMOTIONS GIFS</b></h3>
+            <p style="color: white">Feel free to add an emotion</p>
+            <img src="assets/images/PoweredBy_Logo_200.gif">
+        </div>
+    </div>
+    <div class="container">
+        <nav class="navbar">
+            <div id="emo-nav">
+            </div>
+        </nav>
+    </div>
+    <div class= "container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="panel panel-default">
+                    <div class="panel-body" style="background-color: powderblue;">
+                        <div id="gifs-appear-here"></div>
+                    </div>
+                </div>
+            </div>                
+
+            <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="Add Emotion">Add an Emotion</label>
+                                <input type="text" id="emotion-input" placeholder="Enter Emotion">
+                                <button type="submit" class="btn btn-primary" id="add-emotion">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    <div class="footer" align="center">
+        <p>Copyright 2018 <span class="glyphicon glyphicon-education"></span></p> 
+    </div>
+</div>
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/emotion.js"></script>
+       
+</body>
+
+</html>

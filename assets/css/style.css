@@ -1,0 +1,9 @@
+.emoGif {
+    float: left;
+}
+#gifs-appear-here {
+    clear: both;
+    overflow: auto;
+    background-color: powderblue;
+    height: 400px;
+}
